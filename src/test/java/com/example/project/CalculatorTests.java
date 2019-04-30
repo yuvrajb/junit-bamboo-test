@@ -25,18 +25,16 @@ import org.junit.jupiter.params.provider.CsvSource;
 class CalculatorTests {
 	// important params for TWB Logging
 	public String testPlanKey = "TP-10883";
-	public String testCaseKey = "TC-84601";
+	public String testCaseKey = "TC-84606";
 	
 	@Test
 	@DisplayName("1 + 1 = 2")
-	@Disabled
 	void addsTwoNumbers() {
 		Calculator calculator = new Calculator();
 		assertEquals(2, calculator.add(1, 1), "1 + 1 should equal 2");
 	}
 
 	@ParameterizedTest(name = "{0} + {1} = {2}")
-	@Disabled
 	@CsvSource({
 			"0,    1,   1",
 			"1,    2,   3",
