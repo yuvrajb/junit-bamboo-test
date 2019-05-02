@@ -65,7 +65,7 @@
 		        <executions>		          
 		          <execution>
 		          	<id>exec2</id>
-		          	<phase>test-compile</phase>
+		          	<phase>compile</phase>
 		            <goals>
 		              <goal>write-project-properties</goal>
 		            </goals>
