@@ -59,6 +59,7 @@ public class CustomTestWatcher implements TestWatcher {
 				String bambooPlanKey = prop.getProperty("bamboo.plan.key");
 				String bambooBuildKey = prop.getProperty("bamboo.build.key");
 				
+				System.out.println(this.getClass().getResource("/proj.properties").getPath());
 				System.out.println(bambooPlanKey);
 				System.out.println(bambooBuildKey);
 			} else {
