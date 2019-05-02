@@ -21,7 +21,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-@ExtendWith(CustomTestWatcher.class)
+@ExtendWith(TWBJUnitTestWatcher.class)
 class CalculatorTests {
 	// important params for TWB Logging
 	public String testPlanKey = null; //"TP-10883";
