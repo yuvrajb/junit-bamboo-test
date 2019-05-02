@@ -24,8 +24,8 @@ import org.junit.jupiter.params.provider.CsvSource;
 @ExtendWith(CustomTestWatcher.class)
 class CalculatorTests {
 	// important params for TWB Logging
-	public String testPlanKey = "TP-10883";
-	public String testCaseKey = "TC-84601";
+	public String testPlanKey = null; //"TP-10883";
+	public String testCaseKey = null; //"TC-84601";
 	
 	@Test
 	@DisplayName("1 + 1 = 2")
