@@ -13,6 +13,7 @@
 		<maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
 		<junit.jupiter.version>5.4.2</junit.jupiter.version>
 		<bamboo.plan.key>${bambooPlanKey}</bamboo.plan.key>
+		<bamboo.job.key>${bambooJobKey}</bamboo.job.key>
 		<bamboo.build.key>${bambooBuildKey}</bamboo.build.key>
 	</properties>
 
