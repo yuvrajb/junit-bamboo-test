@@ -12,8 +12,8 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
 		<junit.jupiter.version>5.4.2</junit.jupiter.version>
-		<bamboo.plan.key>${bamboo.planKey}</bamboo.plan.key>
-		<bamboo.build.key>${bamboo.buildKey}</bamboo.build.key>
+		<bamboo.plan.key>${bambooPlanKey}</bamboo.plan.key>
+		<bamboo.build.key>${bambooBuildKey}</bamboo.build.key>
 	</properties>
 
 	<dependencies>
